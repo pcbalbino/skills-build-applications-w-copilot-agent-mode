@@ -1,0 +1,110 @@
+
+body {
+  background: #e3f0ff;
+  color: #0d1a2f;
+}
+
+.App {
+  text-align: center;
+  background: #e3f0ff;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: #1565c0 !important;
+}
+.navbar-brand, .nav-link {
+  color: #e3f0ff !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:focus {
+  color: #90caf9 !important;
+  background: #0d47a1 !important;
+  border-radius: 4px;
+}
+
+.card {
+  background: #bbdefb;
+  border: 1px solid #1565c0;
+  color: #0d1a2f;
+}
+.card-title {
+  color: #0d47a1;
+}
+.card-text {
+  color: #1565c0;
+}
+
+.table {
+  background: #e3f0ff;
+  color: #0d1a2f;
+}
+.table-dark {
+  background: #1565c0;
+  color: #e3f0ff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background: #bbdefb;
+}
+.table-bordered {
+  border-color: #1565c0;
+}
+
+
+.btn-primary, .btn-primary:focus, .btn-primary:active {
+  background: #1976d2 !important;
+  border-color: #1565c0 !important;
+  color: #e3f0ff !important;
+}
+.btn-primary:hover {
+  background: #0d47a1 !important;
+  color: #bbdefb !important;
+}
+
+.btn, .btn:focus, .btn:active {
+  border-radius: 4px;
+}
+
+input, select, textarea {
+  background: #e3f0ff;
+  color: #0d1a2f;
+  border: 1px solid #1565c0;
+}
+input:focus, select:focus, textarea:focus {
+  background: #bbdefb;
+  outline: 2px solid #1976d2;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #1565c0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #e3f0ff;
+}
+
+.App-link {
+  color: #1976d2;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
